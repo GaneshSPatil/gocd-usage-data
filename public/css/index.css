@@ -36,7 +36,9 @@
 }
 
 .chart {
+    display: inline-block;
     border: 1px solid #ccc;
     height: 525px;
-    width: 50%;
+    width: 49%;
+    padding-right: 9px;
 }
