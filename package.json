@@ -1,0 +1,16 @@
+{
+  "name": "gocd-usage-data",
+  "version": "1.0.0",
+  "description": "a simple webapp to visualize GoCD usage data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "highcharts": "^6.1.1",
+    "pg": "^7.4.3"
+  }
+}

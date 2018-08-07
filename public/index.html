@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GoCD Analytics Dashboard</title>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="header"> GoCD Usage Data Analytics Dashboard</div>
+    <span class="count-info">
+        <div class="ping container">
+            <div class="number">0</div>
+            <div class="description">Number of pings received</div>
+        </div>
+        <div class="prod-instances-count container">
+            <div class="number">0</div>
+            <div class="description">Prod Instances</div>
+        </div>
+        <div class="total-instances-count container">
+            <div class="number">0</div>
+            <div class="description">Total Instances Reported</div>
+        </div>
+    </span>
+    <div id="charts">
+        <div id="version_pie" class="chart"/>
+    </div>
+</body>
+</html>
