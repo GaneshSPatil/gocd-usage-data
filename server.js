@@ -13,7 +13,8 @@ app.get('/api/data', function (req, res) {
 		res.send({
 			'general_stats': dataProcessor.getStats(data),
 			'version_based_stats': dataProcessor.getVersionBasedStats(data),
-			'pipeline_count_based_stats': dataProcessor.getPipelineCountBasedStats(data)
+			'pipeline_count_based_stats': dataProcessor.getPipelineCountBasedStats(data),
+			'per_year_instances_count_stats': dataProcessor.getPerYearInstancesCountStats(data)
 		})
 	});
 });

@@ -35,10 +35,18 @@
     text-align: center;
 }
 
-.chart {
+.half-width-chart {
     display: inline-block;
     border: 1px solid #ccc;
     height: 525px;
     width: 49%;
+    padding-right: 9px;
+}
+
+.full-width-chart {
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 525px;
+    width: 99%;
     padding-right: 9px;
 }
